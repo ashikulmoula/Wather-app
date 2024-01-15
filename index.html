@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Any Location Weather app</title>
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" id="city-name" />
+      <button id="search-button">Search</button>
+
+      <div class="wetherinfo">
+        <table>
+          <tr>
+            <th>Location</th>
+            <th>Time</th>
+            <th>Temperature</th>
+            <th>Latetude</th>
+            <th>Longitude</th>
+            <th>Day/Night</th>
+          </tr>
+          <tr>
+            <td><h2 id="llocation"></h2></td>
+            <td><h2 id="time"></h2></td>
+            <td><h2 id="temp"></h2></td>
+            <td><h2 id="latit"></h2></td>
+            <td><h2 id="longit"></h2></td>
+            <td><h2 id="daynight"></h2></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

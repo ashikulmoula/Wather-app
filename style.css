@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "roboto", "sans-serif";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-color: aqua;
+}
+.wetherinfo {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
